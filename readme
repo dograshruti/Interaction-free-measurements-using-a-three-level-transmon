@@ -1,0 +1,19 @@
+% Experimental data and codes for simulation related to:
+% "Coherent interaction-free detection of microwave pulses with a superconducting circuit, Shruti Dogra, John J. McCord, and Gheorghe Sorin Paraoanu (2022)."
+
+%%%%%%%%%%%%%%% Experimental data %%%%%%%%%%%%%%%
+%Experimental data which is directly used in the plots for a general case of large N is added as .mat files. name of the mat files is same as the parameter values saved in the file. Just load .mat file and address the variable with same name. 
+
+% pr_exp.mat: experimental data for Positive Ratio PR(theta), can be called by pr_exp. Data is stored in a 180X25 dimensional matrix corresponding to theta = [0,pi] and N = [1,25]. 
+
+% nr_exp.mat: experimental data for Negative Ratio NR(theta).
+
+% eta_exp.mat: experimental data for averaged values of coherent efficiency eta_c.
+
+% net_p0.mat: Expeirmental p0 data used in the paper for equal theta values.
+
+%%%%%%%%%%%%%%%%% Simulation %%%%%%%%%%%%%%%
+% Choose the correct flags for equal or random B-pulses
+% Chooose correct flags for the decoherence model
+% user parameters: N, theta range, number of points, averages
+% Arbitrary_N_theta_sim.m
